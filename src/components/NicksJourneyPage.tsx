@@ -22,17 +22,8 @@ export default function NicksJourneyPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm">
             <h2 className="text-3xl font-semibold text-gray-900 mb-8 text-center">Body</h2>
             
-            {/* Body Media - Video and Nutrition Photo */}
+            {/* Body Media - Nutrition Photo and Video */}
             <div className="grid md:grid-cols-2 gap-6 mb-8">
-              <div className="relative">
-                <video 
-                  src="/videos/journey/IMG_2255.mov" 
-                  controls 
-                  className="w-full h-64 object-cover rounded-lg shadow-md"
-                >
-                  Your browser does not support the video tag.
-                </video>
-              </div>
               <div className="relative">
                 <img 
                   src="/photos/journey/body/nutrition-photo.jpg" 
@@ -52,6 +43,15 @@ export default function NicksJourneyPage() {
                   </svg>
                   <p className="text-gray-500 text-xs">Add nutrition photo to /public/photos/journey/body/nutrition-photo.jpg</p>
                 </div>
+              </div>
+              <div className="relative">
+                <video 
+                  src="/videos/journey/IMG_2255.mov" 
+                  controls 
+                  className="w-full h-64 object-cover rounded-lg shadow-md"
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
 
