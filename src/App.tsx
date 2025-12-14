@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import HealthBanner from './components/HealthBanner';
 import HealthFooter from './components/HealthFooter';
 import MobileNav from './components/MobileNav';
@@ -29,6 +30,7 @@ export default function App() {
         </main>
         <HealthFooter />
         <MobileNav />
+        <Analytics />
       </div>
     </Router>
   );
