@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export default function HealthFooter() {
   return (
@@ -18,19 +18,19 @@ export default function HealthFooter() {
           <div>
             <h4 className="text-sm font-medium text-white mb-4 uppercase tracking-wide">Navigation</h4>
             <nav className="space-y-2">
-              <Link to="/" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+              <Link href="/" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Home
               </Link>
-              <Link to="/nicks-journey" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+              <Link href="/nicks-journey" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Nick's Journey
               </Link>
-              <Link to="/healthy-living" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+              <Link href="/healthy-living" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Healthy Living
               </Link>
-              <Link to="/resources-protocols" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+              <Link href="/resources-protocols" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Resources & Protocols
               </Link>
-              <Link to="/contact" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+              <Link href="/contact" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Contact
               </Link>
             </nav>

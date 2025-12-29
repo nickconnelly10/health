@@ -1,53 +1,66 @@
+'use client'
+
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { scrollToTop } from '../utils/scrollToTop';
 
 export default function HealthBanner() {
-  const navigate = useNavigate();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+    scrollToTop();
+  };
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 p-4 bg-white shadow-sm">
       <div className="w-full flex justify-between items-center max-w-6xl mx-auto">
         {/* Logo */}
         <div className="text-xl font-medium text-gray-800">
-          <a href="https://health.nickconnelly.box" target="_blank" rel="noopener noreferrer">
+          <Link href="/">
             Health & Wellness
-          </a>
+          </Link>
         </div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          <button
-            onClick={() => { void navigate('/'); scrollToTop(); }}
+          <Link
+            href="/"
+            onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
             Home
-          </button>
-          <button
-            onClick={() => { void navigate('/nicks-journey'); scrollToTop(); }}
+          </Link>
+          <Link
+            href="/nicks-journey"
+            onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
             Nick's Journey
-          </button>
-          <button
-            onClick={() => { void navigate('/healthy-living'); scrollToTop(); }}
+          </Link>
+          <Link
+            href="/healthy-living"
+            onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
             Healthy Living
-          </button>
-          <button
-            onClick={() => { void navigate('/resources-protocols'); scrollToTop(); }}
+          </Link>
+          <Link
+            href="/resources-protocols"
+            onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
             Resources & Protocols
-          </button>
-          <button
-            onClick={() => { void navigate('/contact'); scrollToTop(); }}
+          </Link>
+          <Link
+            href="/contact"
+            onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
             Contact
-          </button>
+          </Link>
         </div>
 
         {/* Mobile menu button */}
@@ -72,36 +85,41 @@ export default function HealthBanner() {
       {isOpen && (
         <div className="md:hidden mt-3 border-t border-gray-200 bg-white/95 backdrop-blur-lg">
           <div className="max-w-6xl mx-auto px-4 py-3 space-y-3">
-            <button
-              onClick={() => { void navigate('/'); setIsOpen(false); scrollToTop(); }}
+            <Link
+              href="/"
+              onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Home
-            </button>
-            <button
-              onClick={() => { void navigate('/nicks-journey'); setIsOpen(false); scrollToTop(); }}
+            </Link>
+            <Link
+              href="/nicks-journey"
+              onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Nick's Journey
-            </button>
-            <button
-              onClick={() => { void navigate('/healthy-living'); setIsOpen(false); scrollToTop(); }}
+            </Link>
+            <Link
+              href="/healthy-living"
+              onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Healthy Living
-            </button>
-            <button
-              onClick={() => { void navigate('/resources-protocols'); setIsOpen(false); scrollToTop(); }}
+            </Link>
+            <Link
+              href="/resources-protocols"
+              onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Resources & Protocols
-            </button>
-            <button
-              onClick={() => { void navigate('/contact'); setIsOpen(false); scrollToTop(); }}
+            </Link>
+            <Link
+              href="/contact"
+              onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Contact
-            </button>
+            </Link>
           </div>
         </div>
       )}

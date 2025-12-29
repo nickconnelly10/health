@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react';
+import Link from 'next/link';
 import AboutPage from './AboutPage';
 
 export default function HomePage() {
@@ -58,7 +61,7 @@ export default function HomePage() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a 
+            <Link 
               href="/nicks-journey" 
               className="group block bg-white hover:bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all duration-200 hover:shadow-md hover:border-gray-300"
             >
@@ -74,9 +77,9 @@ export default function HomePage() {
               <div className="mt-3 text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-200">
                 Read my story →
               </div>
-            </a>
+            </Link>
             
-            <a 
+            <Link 
               href="/healthy-living" 
               className="group block bg-white hover:bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all duration-200 hover:shadow-md hover:border-gray-300"
             >
@@ -92,9 +95,9 @@ export default function HomePage() {
               <div className="mt-3 text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-200">
                 Explore healthy living →
               </div>
-            </a>
+            </Link>
             
-            <a 
+            <Link 
               href="/resources-protocols" 
               className="group block bg-white hover:bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all duration-200 hover:shadow-md hover:border-gray-300"
             >
@@ -110,7 +113,7 @@ export default function HomePage() {
               <div className="mt-3 text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-200">
                 Explore resources & protocols →
               </div>
-            </a>
+            </Link>
           </div>
           
           <div className="mt-12 bg-gradient-to-r from-gray-50 to-gray-100 border border-gray-200 rounded-xl p-8 text-center shadow-sm">
@@ -119,7 +122,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 For questions, more in-depth details, or if you want to add more to our directory, I'd love to hear from you.
               </p>
-              <a 
+              <Link 
                 href="/contact" 
                 className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-200 shadow-sm hover:shadow-md"
               >
@@ -127,7 +130,7 @@ export default function HomePage() {
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

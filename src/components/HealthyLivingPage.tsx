@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import LifestylePage from './LifestylePage';
 import NutritionPage from './NutritionPage';
