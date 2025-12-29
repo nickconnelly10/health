@@ -33,9 +33,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        'serif': ['Playfair Display', 'serif'],
-        'sans': ['Inter', 'sans-serif'],
-        'roman': ['Playfair Display', 'serif'],
+        'serif': ['var(--font-playfair)', 'serif'],
+        'sans': ['var(--font-inter)', 'sans-serif'],
+        'roman': ['var(--font-playfair)', 'serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

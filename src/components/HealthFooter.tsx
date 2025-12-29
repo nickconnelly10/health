@@ -135,7 +135,7 @@ export default function HealthFooter() {
             </p>
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-400" suppressHydrationWarning>
               © {new Date().getFullYear()} Nicholas Connelly. All rights reserved.
             </p>
           </div>
