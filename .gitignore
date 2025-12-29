@@ -10,6 +10,9 @@ dist
 dist-ssr
 *.local
 
+# Vite build outputs (legacy)
+.vite
+
 # Environment variables
 .env
 .env.local
