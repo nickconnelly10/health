@@ -4,3 +4,4 @@ export default function LifestylePage() {
   redirect('/healthy-living')
 }
 
+

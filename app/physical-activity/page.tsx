@@ -4,3 +4,4 @@ export default function PhysicalActivityPage() {
   redirect('/healthy-living')
 }
 
+
