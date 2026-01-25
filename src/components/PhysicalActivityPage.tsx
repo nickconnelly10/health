@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function PhysicalActivityPage() {
   return (
@@ -73,7 +74,7 @@ export default function PhysicalActivityPage() {
           </p>
           <div className="rounded-2xl border-2 border-orange-400 bg-white shadow-lg p-2 flex flex-col items-center gap-2 w-fit mx-auto">
             <div className="flex items-center gap-2 mb-1">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Strava_Logo.svg" alt="Strava logo" className="h-6 w-auto" />
+              <Image src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Strava_Logo.svg" alt="Strava logo" width={70} height={24} className="h-6 w-auto" />
               <span className="text-lg font-bold text-orange-500 tracking-wide">NEST RUN CLUB</span>
             </div>
             <iframe allowTransparency={true} frameBorder='0' height='160' scrolling='no' src='https://www.strava.com/clubs/1284036/latest-rides/d1fef7f441c5fc4894f0308226fa46da1465ff16?show_rides=false' width='300' className="rounded-lg border border-gray-200"></iframe>
