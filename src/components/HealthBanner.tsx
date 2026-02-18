@@ -2,11 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { scrollToTop } from '../utils/scrollToTop';
 
 export default function HealthBanner() {
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLinkClick = () => {
@@ -53,13 +51,6 @@ export default function HealthBanner() {
             className="nav-link text-gray-600"
           >
             Resources & Protocols
-          </Link>
-          <Link
-            href="/contact"
-            onClick={scrollToTop}
-            className="nav-link text-gray-600"
-          >
-            Contact
           </Link>
         </div>
 
@@ -112,13 +103,6 @@ export default function HealthBanner() {
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
               Resources & Protocols
-            </Link>
-            <Link
-              href="/contact"
-              onClick={handleLinkClick}
-              className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
-            >
-              Contact
             </Link>
           </div>
         </div>

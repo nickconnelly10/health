@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function HealthFooter() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-6xl mx-auto px-8 py-16">
-        <div className="grid md:grid-cols-5 gap-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-12 md:py-16">
+        <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <h3 className="text-lg font-medium text-white mb-4">Health Platform</h3>
@@ -30,9 +30,6 @@ export default function HealthFooter() {
               <Link href="/resources-protocols" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Resources & Protocols
               </Link>
-              <Link href="/contact" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
-                Contact
-              </Link>
             </nav>
           </div>
           
@@ -40,6 +37,14 @@ export default function HealthFooter() {
           <div>
             <h4 className="text-sm font-medium text-white mb-4 uppercase tracking-wide">Connect</h4>
             <div className="space-y-2">
+              <a 
+                href="https://www.nickconnelly.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
+              >
+                Nicholas Connelly
+              </a>
               <a 
                 href="https://www.nickconnelly.com/contact/" 
                 target="_blank" 
@@ -67,63 +72,19 @@ export default function HealthFooter() {
             </div>
           </div>
           
-          {/* Resources */}
-          <div>
-            <h4 className="text-sm font-medium text-white mb-4 uppercase tracking-wide">Resources</h4>
-            <div className="space-y-2">
-              <a 
-                href="https://www.nickconnelly.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Nicholas Connelly
-              </a>
-              <a 
-                href="https://muscadine.io" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                DeFi - Muscadine
-              </a>
-            </div>
-          </div>
-          
           {/* Legal */}
           <div>
             <h4 className="text-sm font-medium text-white mb-4 uppercase tracking-wide">Legal</h4>
             <div className="space-y-2">
-              <a 
-                href="/privacy.html" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
+              <Link href="/privacy" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Privacy Policy
-              </a>
-              <a 
-                href="/terms.html" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
+              </Link>
+              <Link href="/terms" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Terms of Service
-              </a>
-              <a 
-                href="#disclaimer" 
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
+              </Link>
+              <Link href="/disclaimer" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Legal Disclaimer
-              </a>
-              <a 
-                href="https://github.com/nickconnelly10/Health-Website" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Open Source
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -4,7 +4,6 @@ import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 import HealthBanner from '../src/components/HealthBanner'
 import HealthFooter from '../src/components/HealthFooter'
-import MobileNav from '../src/components/MobileNav'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -23,6 +22,12 @@ export const metadata: Metadata = {
   description: 'Evidence-based health protocols, personal journey, and comprehensive resources for optimal health and longevity.',
 }
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -37,7 +42,6 @@ export default function RootLayout({
             {children}
           </main>
           <HealthFooter />
-          <MobileNav />
           <Analytics />
         </div>
       </body>

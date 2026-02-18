@@ -1,13 +1,21 @@
-import nextConfig from "eslint-config-next/core-web-vitals";
+import js from "@eslint/js";
+import { defineConfig } from "eslint/config";
+import tseslint from "typescript-eslint";
+import nextPlugin from "@next/eslint-plugin-next";
 
-const config = [
-  ...nextConfig,
+const config = defineConfig([
+  {
+    ignores: [".next/**", "node_modules/**", "out/**", "build/**", "dist/**", "next-env.d.ts", "*.config.js", "*.config.cjs", "*.config.mjs"],
+  },
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  nextPlugin.configs.recommended,
+  nextPlugin.configs["core-web-vitals"],
   {
     rules: {
-      "react/no-unescaped-entities": "off",
       "@next/next/no-img-element": "warn",
     },
   },
-];
+]);
 
 export default config;

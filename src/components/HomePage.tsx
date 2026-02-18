@@ -124,15 +124,17 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 For questions, more in-depth details, or if you want to add more to our directory, I'd love to hear from you.
               </p>
-              <Link 
-                href="/contact" 
+              <a
+                href="https://www.nickconnelly.com/contact/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-200 shadow-sm hover:shadow-md"
               >
                 Get in Touch
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
