@@ -6,7 +6,7 @@ A modern health and wellness website featuring Nick's personal health journey, e
 
 - **Next.js 16.1.1** with React 19, TypeScript, Tailwind CSS
 - **Deployment**: Vercel
-- **Domain**: `health.nickconnelly.io`
+- **Domain**: `health.nickconnelly.com`
 
 ## Quick Start
 
