@@ -8,7 +8,7 @@ export default function AboutPage() {
         
         <div className="prose prose-lg max-w-none text-stone-700 space-y-6">
           <p>
-            Our health platform provides comprehensive access to evidence-based health protocols and scientific research for nutrition, lifestyle optimization, and preventive care. Access our collection of peer-reviewed health protocols and research papers for evidence-based health guidance.
+            Our health platform provides comprehensive access to evidence-based scientific research for nutrition, lifestyle optimization, and preventive care. Access our collection of resources for evidence-based health guidance.
           </p>
           
           <p>

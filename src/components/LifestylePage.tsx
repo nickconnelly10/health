@@ -13,7 +13,7 @@ export default function LifestylePage() {
           </li>
           <li>
             <span className="font-bold text-burgundy">Nutrition Habits</span><br />
-            Refer to Nutrition tab for details. Follow 8-hour eating window, focus on whole foods—animal meats, fruits, vegetables, nuts, seeds—avoid processed products.
+            Refer to Nutrition tab for details. Follow 8-12 hour eating window, focus on whole foods—animal meats, fruits, vegetables, nuts, seeds—avoid processed products.
           </li>
           <li>
             <span className="font-bold text-burgundy">Physical Activity</span><br />

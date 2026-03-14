@@ -46,11 +46,11 @@ export default function HealthBanner() {
             Healthy Living
           </Link>
           <Link
-            href="/resources-protocols"
+            href="/resources"
             onClick={scrollToTop}
             className="nav-link text-gray-600"
           >
-            Resources & Protocols
+            Resources
           </Link>
         </div>
 
@@ -98,11 +98,11 @@ export default function HealthBanner() {
               Healthy Living
             </Link>
             <Link
-              href="/resources-protocols"
+              href="/resources"
               onClick={handleLinkClick}
               className="block text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
             >
-              Resources & Protocols
+              Resources
             </Link>
           </div>
         </div>

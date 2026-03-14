@@ -10,7 +10,7 @@ export default function HealthFooter() {
           <div>
             <h3 className="text-lg font-medium text-white mb-4">Health Platform</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Evidence-based health protocols, my personal journey, and comprehensive resources for optimal health and longevity.
+              My personal journey and comprehensive resources for optimal health and longevity.
             </p>
           </div>
           
@@ -27,8 +27,8 @@ export default function HealthFooter() {
               <Link href="/healthy-living" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
                 Healthy Living
               </Link>
-              <Link href="/resources-protocols" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
-                Resources & Protocols
+              <Link href="/resources" className="block text-sm text-gray-300 hover:text-white transition-colors duration-200">
+                Resources
               </Link>
             </nav>
           </div>
@@ -52,22 +52,6 @@ export default function HealthFooter() {
                 className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
               >
                 Contact
-              </a>
-              <a 
-                href="https://linkedin.com/in/nicholasconnelly" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                LinkedIn
-              </a>
-              <a 
-                href="https://nicholasconnelly.substack.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-sm text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Substack
               </a>
             </div>
           </div>

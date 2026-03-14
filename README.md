@@ -1,6 +1,6 @@
 # Health & Wellness Website
 
-A modern health and wellness website featuring Nick's personal health journey, evidence-based protocols, and comprehensive resources for optimal health and longevity.
+A modern health and wellness website featuring Nick's personal health journey and comprehensive resources for optimal health and longevity.
 
 ## Tech Stack
 
@@ -47,7 +47,7 @@ public/                 # Static assets (photos, videos)
 ## Features
 
 - Personal health journey (Body, Mind, Spirit)
-- Evidence-based health protocols and resources
+- Comprehensive health resources
 - Nutrition, Physical Activity, and Lifestyle guides
 - Responsive design with optimized performance
 - Static site generation for fast loading

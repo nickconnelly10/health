@@ -20,7 +20,7 @@ export default function HomePage() {
                   Health & Wellness
                 </h1>
                 <p className='text-xl text-gray-600 leading-relaxed max-w-2xl animate-slide-up'>
-                  Evidence-based health protocols, my personal journey, and comprehensive resources for optimal health and longevity.
+                  My personal journey and comprehensive resources for optimal health and longevity.
                 </p>
               </div>
               <div className="animate-slide-up">
@@ -58,7 +58,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Health Resources</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore our comprehensive health resources organized by category. Each section contains evidence-based protocols, detailed guides, and practical tools for optimizing your health.
+              Explore our comprehensive health resources organized by category. Each section contains detailed guides and practical tools for optimizing your health.
             </p>
           </div>
           
@@ -93,14 +93,14 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-700 transition-colors duration-200">Healthy Living</h3>
-              <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-200">Comprehensive lifestyle optimization including nutrition protocols, physical activity guidelines, and daily wellness routines for optimal health and longevity.</p>
+              <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-200">Comprehensive lifestyle optimization including nutrition guidance, physical activity guidelines, and daily wellness routines for optimal health and longevity.</p>
               <div className="mt-3 text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-200">
                 Explore healthy living →
               </div>
             </Link>
             
             <Link 
-              href="/resources-protocols" 
+              href="/resources" 
               className="group block bg-white hover:bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all duration-200 hover:shadow-md hover:border-gray-300"
             >
               <div className="mb-4 flex justify-center">
@@ -110,32 +110,12 @@ export default function HomePage() {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-700 transition-colors duration-200">Resources & Protocols</h3>
-              <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-200">Comprehensive health resources, evidence-based protocols, testing recommendations, and practical tools for health optimization.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-gray-700 transition-colors duration-200">Resources</h3>
+              <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-200">Comprehensive health resources, testing recommendations, and practical tools for health optimization.</p>
               <div className="mt-3 text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-200">
-                Explore resources & protocols →
+                Explore resources →
               </div>
             </Link>
-          </div>
-          
-          <div className="mt-12 bg-gradient-to-r from-gray-50 to-gray-100 border border-gray-200 rounded-xl p-8 text-center shadow-sm">
-            <div className="max-w-2xl mx-auto">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Have Questions or Suggestions?</h3>
-              <p className="text-gray-600 mb-6">
-                For questions, more in-depth details, or if you want to add more to our directory, I'd love to hear from you.
-              </p>
-              <a
-                href="https://www.nickconnelly.com/contact/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-200 shadow-sm hover:shadow-md"
-              >
-                Get in Touch
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
       </section>

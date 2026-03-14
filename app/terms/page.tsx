@@ -40,7 +40,7 @@ export default function TermsPage() {
         </h2>
         <p className="mb-4">
           This website is an educational resource providing information about health,
-          wellness, and evidence-based protocols. All content is for educational purposes
+          and wellness. All content is for educational purposes
           only—no medical advice, no treatment recommendations, no diagnosis.
         </p>
       </section>

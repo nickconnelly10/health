@@ -19,7 +19,8 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: 'Health & Wellness',
-  description: 'Evidence-based health protocols, personal journey, and comprehensive resources for optimal health and longevity.',
+  description: 'Personal journey and comprehensive resources for optimal health and longevity.',
+  icons: { icon: '/favicon.svg' },
 }
 
 export const viewport = {

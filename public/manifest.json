@@ -1,7 +1,7 @@
 {
   "name": "Health & Wellness",
   "short_name": "Health & Wellness",
-  "description": "Comprehensive health platform featuring lifestyle optimization, nutrition guidance, physical activity protocols, and evidence-based wellness resources for preventive care",
+  "description": "Comprehensive health platform featuring lifestyle optimization, nutrition guidance, physical activity, and evidence-based wellness resources for preventive care",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fafaf9",

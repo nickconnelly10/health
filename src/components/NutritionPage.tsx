@@ -34,7 +34,7 @@ export default function NutritionPage() {
           <section>
             <h3 className="text-xl font-bold text-burgundy mb-2 font-roman">3. Timing & Fasting</h3>
             <ul className="list-disc ml-6 space-y-2 text-sm text-stone-800">
-              <li><span className="font-semibold">Time-Restricted Eating:</span> 14–16-hour overnight fast with 8–10-hour eating window (e.g., 10 AM–6 PM).</li>
+              <li><span className="font-semibold">Time-Restricted Eating:</span> 14–16-hour overnight fast with 8–12-hour eating window (e.g., 10 AM–6 PM).</li>
               <li>Build gradually. Start with 12/12 or 14/10 if 16/8 feels too harsh.</li>
               <li><span className="font-semibold">Meal spacing:</span> 3–4 hours between meals to allow insulin levels to fall.</li>
             </ul>
