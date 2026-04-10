@@ -5,9 +5,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Build outputs
-dist
-dist-ssr
+# Build outputs (root only — Next uses .next)
+/dist
+/dist-ssr
 *.local
 
 # Vite build outputs (legacy)

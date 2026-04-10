@@ -8,11 +8,11 @@ export default function AboutPage() {
         
         <div className="prose prose-lg max-w-none text-stone-700 space-y-6">
           <p>
-            Our health platform provides comprehensive access to evidence-based scientific research for nutrition, lifestyle optimization, and preventive care. Access our collection of resources for evidence-based health guidance.
+            This health platform provides comprehensive access to evidence-based scientific research for nutrition, lifestyle optimization, and preventive care. Access our collection of resources for evidence-based health guidance.
           </p>
           
           <p>
-            Our information is continuously updated with the latest research, providing step-by-step guidance for optimizing nutrition, physical activity, sleep, and overall wellness.
+            This information is continuously updated with the latest research, providing step-by-step guidance for optimizing nutrition, physical activity, sleep, and overall wellness.
           </p>
           
           <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-lg">
